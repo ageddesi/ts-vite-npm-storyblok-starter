@@ -1,2 +1,9 @@
-export { default as sum } from './sum';
-export { default as subtract } from './subtract';
+import { Button } from "./components/Button/Button";
+import { Header } from "./components/Header/Header";
+import { Page } from "./components/Page/Page";
+
+export {
+    Button,
+    Header,
+    Page
+}
